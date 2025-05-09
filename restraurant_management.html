@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste of Spice</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #d9534f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #d9534f;
+}
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin: 10px 0;
+      padding: 8px;
+      font-size: 1em;
+    }
+    button {
+      padding: 10px;
+      background-color: #d9534f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Taste of Spice</h1>
+    <p>Authentic Indian Flavors with a Global Twist</p>
+  </header>
+
+  <nav>
+ <a href="#menu">Menu</a>
+    <a href="#booking">Book a Table</a>
+    <a href="#contact">Contact</a>
+    <a href="#feedback">Feedback</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <h3>Indian Dishes</h3>
+    <div class="menu-item"><span>Butter Chicken</span><span>Rs.310</span></div>
+    <div class="menu-item"><span>Palak Paneer</span><span>Rs.295</span></div>
+    <div class="menu-item"><span>Biryani</span><span>Rs.149</span></div>
+    <div class="menu-item"><span>Rogan Josh</span><span>Rs.299</span></div>
+    <div class="menu-item"><span>Masala Dosa</span><span>Rs.79</span></div>
+    <div class="menu-item"><span>Chicken Tikka Masala</span><span>Rs.449</span></div>
+    <div class="menu-item"><span>Paneer Tikka</span><span>Rs.219</span></div>
+    <div class="menu-item"><span>Aloo Gobi</span><span>Rs.139</span></div>
+    <div class="menu-item"><span>Chole Bhature</span><span>Rs.99</span></div>
+    <div class="menu-item"><span>Dal Makhani</span><span>Rs.119</span></div>
+    <div class="menu-item"><span>Tandoori Chicken</span><span>Rs.229</span></div>
+    <div class="menu-item"><span>Naan</span><span>Rs.12</span></div>
+    <div class="menu-item"><span>Vegetable Korma</span><span>Rs.179</span></div>
+    <div class="menu-item"><span>Fish Curry</span><span>Rs.289</span></div>
+    <div class="menu-item"><span>Samosa</span><span>Rs.22</span></div>
+
+    <h3>Italian Dishes</h3>
+    <div class="menu-item"><span>Margherita Pizza</span><span>Rs.189</span></div>
+    <div class="menu-item"><span>Lasagna</span><span>Rs.256</span></div>
+    <div class="menu-item"><span>Spaghetti Carbonara</span><span>Rs.169</span></div>
+    <div class="menu-item"><span>Fettuccine Alfredo</span><span>Rs.129</span></div>
+    <div class="menu-item"><span>Bruschetta</span><span>Rs.99</span></div>
+
+    <h3>Korean Dishes</h3>
+    <div class="menu-item"><span>Bibimbap</span><span>Rs.119</span></div>
+    <div class="menu-item"><span>Kimchi Fried Rice</span><span>Rs.99</span></div>
+    <div class="menu-item"><span>Bulgogi</span><span>Rs.209</span></div>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Table</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Number of Guests" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Spice Street, Flavor Town</p>
+    <p><strong>Phone:</strong> +917219362200</p>
+    <p><strong>Email:</strong> contact@tasteofspice.com</p>
+  </section>
+
+  <section id="feedback">
+    <h2>Leave Your Feedback</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Comments"></textarea>
+<button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Taste of Spice. All rights reserved.</p>
+  </footer>
+</body>
+</html>
